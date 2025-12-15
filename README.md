@@ -1,4 +1,5 @@
-\# AI-Powered Investor–Startup Matchmaking Platform
+\# AI-Powered Investor–Startup Matchmaking Platform 
+International Elite Capital
 
 \---
 
@@ -42,7 +43,7 @@ All work in Google Drive(not possible to combine everyone's work into one repo):
 
 \#\# 📊 \*\*Data Exploration\*\*
 
-\* Structured tabular data (CSV format)
+\* Structured tabular data (CSV format / 300 rows)
 - Financial metrics (revenue, margins, valuation ratios)
 - IPO pricing and aftermarket performance
 - Investor and VC firm metadata
@@ -52,6 +53,13 @@ All work in Google Drive(not possible to combine everyone's work into one repo):
 - Converted string-encoded numeric values to usable numeric formats
 - Handled missing values using median imputation
 - Explored feature distributions, correlations, and class imbalance
+
+\* Top Industries in Portfolio (Hannah)
+<img width="807" height="411" alt="image" src="https://github.com/user-attachments/assets/b389c98a-dd2e-4db3-8a78-25aefff58dde" />
+
+\* Deal Sizes (Jessica)
+<img width="642" height="527" alt="image" src="https://github.com/user-attachments/assets/0391de3d-f164-4e6e-88cd-06564bcc94c7" />
+
 
 \* Insights from your Exploratory Data Analysis (EDA)  
 - Certain values and return-based features showed strong predictions
@@ -75,6 +83,15 @@ All work in Google Drive(not possible to combine everyone's work into one repo):
 
 \#\# 📈 \*\*Results & Key Findings\*\*
 <img width="778" height="368" alt="image" src="https://github.com/user-attachments/assets/1a11cc61-6386-44dd-a405-bbdc035aaeef" />
+
+\* SHAP Values (Marcello)
+<img width="818" height="566" alt="image" src="https://github.com/user-attachments/assets/647d634e-8679-4061-8ede-3b09255f5058" />
+
+
+\* Company Ranking (Hannah)
+<img width="837" height="465" alt="image" src="https://github.com/user-attachments/assets/32727c82-d537-4021-9f80-222fe235d230" />
+
+- Once again, check "IPO Investment Analysis" folder for further information: https://drive.google.com/drive/folders/18t-jTXR5vnDN_YV0Y9XTEYyeQy-lH7Ko?usp=sharing
 
 \*\*Videos\*\*
 
