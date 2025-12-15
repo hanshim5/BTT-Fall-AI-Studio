@@ -1,6 +1,4 @@
-\# Your AI Studio Challenge Project Title Here
-
-⚠️ \_Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and examples in this template before finalizing your README.\_
+\# AI-Powered Investor–Startup Matchmaking Platform
 
 \---
 
@@ -10,111 +8,85 @@
 
 | Name             | GitHub Handle | Contribution                                                             |  
 |------------------|---------------|--------------------------------------------------------------------------|  
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |  
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |  
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |  
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |  
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
-
+| Anthony Carmona    | @AnthonyC247 | Data exploration, visualization            |  
+| Bhavi Kenia   | @bhavikenia     | Data exploration, visualization, data collection, exploratory data analysis, dataset documentation  |  
+| Hannah Sim     | @hanshim5  | Data exploration, visualization, model selection, hyperparameter tuning, model training, model evaluation, performance analysis, results interpretation                 |  
+| Jessica Yao      | @jyao46       | Data exploration, visualization, data collection, exploratory data analysis, dataset documentation  |  
+| Marcello Borromeo       | @MarcelloBorromeo    | Data exploration, visualization, model selection, hyperparameter tuning, model training, model evaluation, performance analysis, results interpretation           |
+| Sanjitha Kurra       | @sanxku    | Data exploration, visualization, data collection, exploratory data analysis, dataset documentation           |
 \---
 
 \#\# 🎯 \*\*Project Highlights\*\*
 
-\*\*Example:\*\*
-
-\- Developed a machine learning model using \`\[model type/technique\]\` to address \`\[challenge project task\]\`.  
-\- Achieved \`\[key metric or result\]\`, demonstrating \`\[value or impact\]\` for \`\[host company\]\`.  
-\- Generated actionable insights to inform business decisions at \`\[host company or stakeholders\]\`.  
-\- Implemented \`\[specific methodology\]\` to address industry constraints or expectations.
+\- Developed a machine learning–driven investor–startup matchmaking system to predict startup investment quality and investor fit.  
+\- Trained and evaluated classification models (Logistic Regression, Random Forest, etc).
+\- Achieved high AUC performance on validation and test sets, revealing strong ranking ability for investment decision support.  
+\- Created a startup quality scoring system to rank both startups and venture capital firms based on historical outcomes.  
 
 \---
 
 \#\# 👩🏽‍💻 \*\*Setup and Installation\*\*
 
-\*\*Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:\*\*
-
-\* How to clone the repository  
-\* How to install dependencies  
-\* How to set up the environment  
-\* How to access the dataset(s)  
-\* How to run the notebook or scripts
+All work in Google Drive(not possible to combine everyone's work into one repo):
+- Check "IPO Investment Analysis" folder: https://drive.google.com/drive/folders/18t-jTXR5vnDN_YV0Y9XTEYyeQy-lH7Ko?usp=sharing
+- Run Colab files
 
 \---
 
 \#\# 🏗️ \*\*Project Overview\*\*
 
-\*\*Describe:\*\*
-
-\- How this project is connected to the Break Through Tech AI Program  
-\- Your AI Studio host company and the project objective and scope  
-\- The real-world significance of the problem and the potential impact of your work
+\- This project was completed as part of the Break Through Tech AI Program – AI Studio, in collaboration with our industry host company: International Elite Capital.
+\- The objective was to build an AI-driven system that helps match startups with investors by taking in historical financial, market, and performance data. The project focuses on finding high-quality IPO candidates and ranking venture capital firms based on the long-term outcomes of the companies they back.
+\- In real-world investing, decisions are often driven by pieces of data, intuition, or lack of performance. This project shows how machine learning can be used to support better investment analysis.
 
 \---
 
 \#\# 📊 \*\*Data Exploration\*\*
 
-\*\*You might consider describing the following (as applicable):\*\*
+\* Structured tabular data (CSV format)
+- Financial metrics (revenue, margins, valuation ratios)
+- IPO pricing and aftermarket performance
+- Investor and VC firm metadata
 
-\* The dataset(s) used: origin, format, size, type of data  
-\* Data exploration and preprocessing approaches  
+\* Data exploration and preprocessing approaches
+- Standardized inconsistent financial fields
+- Converted string-encoded numeric values to usable numeric formats
+- Handled missing values using median imputation
+- Explored feature distributions, correlations, and class imbalance
+
 \* Insights from your Exploratory Data Analysis (EDA)  
+- Certain values and return-based features showed strong predictions
+- Data imbalance required careful metric selection (AUC, F1)
+- Raw financial features benefited from normalization and transformation
+
 \* Challenges and assumptions when working with the dataset(s)
-
-\*\*Potential visualizations to include:\*\*
-
-\* Plots, charts, heatmaps, feature visualizations, sample dataset images
+- Inconsistent schemas across data sources
+- Sparse data for early-stage companies
+- Noisy real-world financial data
 
 \---
 
 \#\# 🧠 \*\*Model Development\*\*
-
-\*\*You might consider describing the following (as applicable):\*\*
-
-\* Model(s) used (e.g., CNN with transfer learning, regression models)  
-\* Feature selection and Hyperparameter tuning strategies  
-\* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
-
+- Models Used: Logistic Regression, random Forest, neural Network, XGBoost, decision Trees
+- Feature Engineering: Financial ratios, IPO pricing and return metrics, growth indicators, and profitability measures
+- Training Setup: Train/validation/test split, hyperparameter tuning using grid search, evaluation metrics(accuracy, precision, recall, F1, AUC)
+- Selection: Random Forest selected for stronger nonlinear modeling and better AUC
+  
 \---
 
 \#\# 📈 \*\*Results & Key Findings\*\*
+<img width="778" height="368" alt="image" src="https://github.com/user-attachments/assets/1a11cc61-6386-44dd-a405-bbdc035aaeef" />
 
-\*\*You might consider describing the following (as applicable):\*\*
+\*\*Videos\*\*
 
-\* Performance metrics (e.g., Accuracy, F1 score, RMSE)  
-\* How your model performed  
-\* Insights from evaluating model fairness
-
-\*\*Potential visualizations to include:\*\*
-
-\* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+https://docs.google.com/presentation/d/1kbM60DNClpus9FfKLqPdZLbyvY0BDTag/edit?usp=sharing&ouid=112813057492552252330&rtpof=true&sd=true 
 
 \---
 
 \#\# 🚀 \*\*Next Steps\*\*
 
-\*\*You might consider addressing the following (as applicable):\*\*
-
-\* What are some of the limitations of your model?  
-\* What would you do differently with more time/resources?  
-\* What additional datasets or techniques would you explore?
-
-\---
-
-\#\# 📝 \*\*License\*\*
-
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-\*\*Example:\*\*  
-This project is licensed under the MIT License.
-
-\---
-
-\#\# 📄 \*\*References\*\* (Optional but encouraged)
-
-Cite relevant papers, articles, or resources that supported your project.
-
-\---
-
-\#\# 🙏 \*\*Acknowledgements\*\* (Optional but encouraged)
-
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+\* Address class imbalance with additional sampling strategies
+\* Incorporate time-series financial trends instead of static snapshots
+\* Expand dataset to include private funding rounds
+\* Add fairness and bias evaluation across industries and company sizes
+\* Deploy as an interactive dashboard for investors
