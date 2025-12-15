@@ -4,8 +4,6 @@
 
 \#\#\# 👥 \*\*Team Members\*\*
 
-\*\*Example:\*\*
-
 | Name             | GitHub Handle | Contribution                                                             |  
 |------------------|---------------|--------------------------------------------------------------------------|  
 | Anthony Carmona    | @AnthonyC247 | Data exploration, visualization            |  
@@ -14,6 +12,7 @@
 | Jessica Yao      | @jyao46       | Data exploration, visualization, data collection, exploratory data analysis, dataset documentation  |  
 | Marcello Borromeo       | @MarcelloBorromeo    | Data exploration, visualization, model selection, hyperparameter tuning, model training, model evaluation, performance analysis, results interpretation           |
 | Sanjitha Kurra       | @sanxku    | Data exploration, visualization, data collection, exploratory data analysis, dataset documentation           |
+
 \---
 
 \#\# 🎯 \*\*Project Highlights\*\*
@@ -85,8 +84,8 @@ https://docs.google.com/presentation/d/1kbM60DNClpus9FfKLqPdZLbyvY0BDTag/edit?us
 
 \#\# 🚀 \*\*Next Steps\*\*
 
-\* Address class imbalance with additional sampling strategies
-\* Incorporate time-series financial trends instead of static snapshots
-\* Expand dataset to include private funding rounds
-\* Add fairness and bias evaluation across industries and company sizes
-\* Deploy as an interactive dashboard for investors
+- Address class imbalance with additional sampling strategies
+- Incorporate time-series financial trends instead of static snapshots
+- Expand dataset to include private funding rounds
+- Add fairness and bias evaluation across industries and company sizes
+- Deploy as an interactive dashboard for investors
